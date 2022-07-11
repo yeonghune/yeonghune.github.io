@@ -1,7 +1,9 @@
 ---
 layout: single
-title:  "07-10 cpp 학습(정적변수)"
+title:  "cpp 학습(정적변수)"
 categories : study
+tag : cpp
+toc : true
 ---
 
 # 정적 변수,함수 와 싱글톤 디자인
@@ -34,7 +36,7 @@ int main(){
 정적 변수의 초기화는 전역 변수와 비슷하게 클래스 외부에서 수행한다.
 
 
-![image-20220710181950015](https://raw.githubusercontent.com/yeonghune/yeonghune.github.io/master/images/2022-07-09-cpp(static)/image-20220710181950015.png)
+![image-20220710181950015](..\images\2022-07-09-cpp(static)\image-20220710181950015.png)
 
 
 

@@ -1,17 +1,12 @@
-<<<<<<< HEAD
 ---
-
-layout: post
-
-title:  "07-11 Logistic Regression 학습"
-date: 2022-07-11 19:11:00
-
+layout: single
+title:  "Logistic Regrssion"
 categories : study
-
+tag : python
+toc : true
 ---
 
-=======
->>>>>>> parent of f7c97390 (Update 2022-07-11-Logistic-Regression.md)
+
 # 타이타닉 속 생존 확률
 
 남들 다 해본 타이타닉 속 생존 확률 찾기 나도 해본다!!

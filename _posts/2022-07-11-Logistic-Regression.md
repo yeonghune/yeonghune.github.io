@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Logistic Regrssion"
+title:  "로지스틱 회귀"
 categories : study
 tag : python
 toc : true

@@ -1,3 +1,13 @@
+---
+
+layout: single
+title:  "상속"
+categories : study
+tag : cpp
+toc : true
+
+---
+
 # 상속
 
 ### 상속의 정의

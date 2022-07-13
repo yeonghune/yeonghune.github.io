@@ -2,7 +2,7 @@
 layout: single
 title:  "비지도 학습(K-means 실습)"
 categories : study
-tag : python
+tag : Python, MachineLearning
 toc : true
 ---
 

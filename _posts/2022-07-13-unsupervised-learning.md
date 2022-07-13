@@ -68,61 +68,8 @@ import pandas as pd
 
 ```python
 dataset = pd.read_csv('..\PythonMLWorkspace(LightWeight)\ScikitLearn\KMeansData.csv')
-dataset.head(5)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>hour</th>
-      <th>score</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>7.33</td>
-      <td>73</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3.71</td>
-      <td>55</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3.43</td>
-      <td>55</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3.06</td>
-      <td>89</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>3.33</td>
-      <td>79</td>
-    </tr>
-  </tbody>
-</table>
 
 
 비지도 학습은 정답인 종속변수가 없기 때문에 y값은 따로 안 정해준다
@@ -146,7 +93,7 @@ X[:5]
 
 
 
-### 데이터 시각화(전체 데이터 분포 확인)
+__데이터 시각화(전체 데이터 분포 확인)__
 
 
 ```python
@@ -165,8 +112,7 @@ plt.ylabel('score')
 
 ​    ![output_19_1](../../images/05. K_means/output_19_1.png)
 
-
-### 데이터 시각화 (축 범위 통일)
+__데이터 시각화 (축 범위 통일)__  
 축과 축이 서로 단위가 다르면 거리 측정에 오류가 생김
 
 
@@ -190,9 +136,9 @@ plt.ylabel('score')
     
 
 
-위와 같이 X축을 100가지 늘려주면 가독성이 떨어짐
+위와 같이 X축을 100가지 늘려주면 가독성이 떨어짐  
 
-### 피쳐 스케일링 (Feature Scaling)
+__피쳐 스케일링 (Feature Scaling)__
 
 
 ```python
@@ -213,7 +159,7 @@ X[:5]
 
 
 
-### 데이터 시각화 (스케일링 데이터)
+__데이터 시각화 (스케일링 데이터)__
 
 
 ```python
@@ -230,8 +176,7 @@ plt.ylabel('score')
 
 ​    
 
-
-### 최적의 K값 찾기(Elbow Method)
+__최적의 K값 찾기(Elbow Method)__
 
 inertia : 각 지점부터 클러스터의 중심까지의 거리의 제곱의 합
 
@@ -255,8 +200,7 @@ plt.show()
 ​    ![output_29_0](../../images/05. K_means/output_29_0.png)
 ​    
 
-
-### 최적의 K(4) 값으로 KMeans 학습
+__최적의 K(4) 값으로 KMeans 학습__
 
 
 ```python
@@ -266,7 +210,7 @@ kmeans = KMeans(n_clusters=K, random_state = 0)
 y_kmeans = kmeans.fit_predict(X)
 ```
 
-### 데이터 시각화 (최적의 K)
+__데이터 시각화 (최적의 K)__
 
 
 ```python
@@ -285,8 +229,7 @@ plt.show()
 ![output_33_0](../../images/05. K_means/output_33_0.png)
     
 
-
-클러스터의 중심의 좌표
+__클러스터의 중심의 좌표__
 
 
 ```python
@@ -299,8 +242,7 @@ print(centers)
      [ 0.94107583  0.93569782]
      [-1.22698889 -0.46768593]]
 
-
-### 데이터 시각화(스케일링 원상복구)
+__데이터 시각화(스케일링 원상복구)__
 
 
 ```python

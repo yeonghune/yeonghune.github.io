@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "다형성과 가상함수"
-categories : study
+categories : cpp
 tag : cpp
 toc : true
 ---

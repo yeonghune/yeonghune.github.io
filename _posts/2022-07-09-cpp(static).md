@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "cpp 학습(정적변수)"
-categories : study
+categories : cpp
 tag : cpp
 toc : true
 ---

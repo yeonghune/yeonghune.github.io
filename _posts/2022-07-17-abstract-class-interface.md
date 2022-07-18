@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "추상클래스와 인터페이스"
-categories : study
+categories : cpp
 tag : cpp
 toc : true
 ---

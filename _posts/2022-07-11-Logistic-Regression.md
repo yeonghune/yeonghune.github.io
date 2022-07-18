@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "로지스틱 회귀"
-categories : study
+categories : MachineLearning
 tag : [Python, MachineLearning]
 toc : true
 ---

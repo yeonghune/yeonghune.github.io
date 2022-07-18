@@ -2,7 +2,7 @@
 
 layout: single
 title:  "상속"
-categories : study
+categories : cpp
 tag : cpp
 toc : true
 

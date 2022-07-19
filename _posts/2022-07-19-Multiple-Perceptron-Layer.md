@@ -6,8 +6,6 @@ tag : [Python, MachineLearning]
 toc : true
 ---
 
-# 다층 퍼셉트론 신경망 모델 구현
-
 
 ## 피마족 인디언 당뇨병 발병 데이터셋(이진 클래스 문제)
 

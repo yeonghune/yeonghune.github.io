@@ -6,8 +6,6 @@ tag : [Python, MachineLearning]
 toc : true
 ---
 
-# 비지도 학습
-
 * 종속변수가 없는 즉, 정답이 없는 비지도 학습
 * 데이터의 유의미한 패턴 / 구조 발견
 

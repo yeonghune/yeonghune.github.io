@@ -6,8 +6,6 @@ tag : cpp
 toc : true
 ---
 
-# 비트 연산을 이용한 문제 풀이
-
 ### 문제
 
 ### ![Codingtest](../../images/2022-07-18-codingtestcpp1/Codingtest-16581418927351.png)

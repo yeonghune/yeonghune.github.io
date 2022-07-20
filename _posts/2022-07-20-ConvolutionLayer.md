@@ -1,10 +1,12 @@
-```
+---
+
 layout: single
 title:  "합성곱 신경망"
 categories : MachineLearning
 tag : [Python, MachineLearning]
 toc : true
-```
+
+---
 
 ## 컨볼루션 레이어 ( Convolution Layer)
 

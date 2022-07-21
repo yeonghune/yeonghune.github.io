@@ -51,6 +51,14 @@ Conv2D(32,(5,5),padding='valid', input_shape(28,28,1),activation ='relu')
 
 ![](https://production-media.paperswithcode.com/method_collections/cnn.jpeg)
 
+---
+
+## 용어 정리
+
+* __Kernel Size__ : 필터의 크기
+* __Stride__ : 보폭이라는 의미, 필터를 적용하는 간격
+* __Padding__ : 합성곱 연산전에 입력 데이터 주위에 특정 값을 채우는 것. 1폭짜리는 데이터 상하좌우 1픽섹을 특정한 값으로 삽입 (보통 0을 하나, 전체 패딩을 동일한 값으로 해야함)
+
 
 
 

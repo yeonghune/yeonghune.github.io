@@ -47,7 +47,7 @@ test_generator = test_datagen.flow_from_directory(
 )
 ```
 
-### 모델구성
+### 모델구성  
 
 ```python
 model = Sequential()

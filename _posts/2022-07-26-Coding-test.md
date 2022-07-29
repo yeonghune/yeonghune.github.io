@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "정수를 받아 비트로 변환 후 1인 개수 구하기"
+title:  "[코딩 테스트] 정수를 받아 비트로 변환 후 1인 개수 구하기"
 categories : CodingTest
 tag : [cpp]
 toc : false

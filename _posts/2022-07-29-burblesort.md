@@ -16,7 +16,7 @@ __버블 정렬(burble sort)__ 또는 거품 정렬 이라고 하며 양 옆의 
 
 ### 시각적 설명
 
-![bubble-sort](../images/2022-07-29-burblesort/bubble-sort.gif)
+![bubble-sort](../../images/2022-07-29-burblesort/bubble-sort.gif)
 
 위에 그림과 같이 우측의 원소와 비교해 나가면서 정렬 하는 것이다.
 

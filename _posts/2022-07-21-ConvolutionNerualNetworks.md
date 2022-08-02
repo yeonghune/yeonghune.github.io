@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "합성곱 신경망 모델 구현"
+title:  "[머신러닝]합성곱 신경망 모델 구현"
 categories : MachineLearning
 tag : [Python, MachineLearning]
 toc : true

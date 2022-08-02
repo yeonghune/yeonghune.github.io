@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "CNN모델 파라미터 계산"
+title:  "[머신러닝]CNN모델 파라미터 계산"
 categories : MachineLearning
 tag : [Python, MachineLearning]
 toc : true

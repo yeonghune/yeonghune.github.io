@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Resnet 모델 정리"
+title:  "[머신러닝]Resnet 모델 정리"
 categories : MachineLearning
 tag : [Python, MachineLearning]
 toc : true
